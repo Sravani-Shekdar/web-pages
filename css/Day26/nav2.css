@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    width: 6vw;
+    height: 6vw;
+    background-color: royalblue;
+    left: 1vw;
+    top: 1vw;
+    display: flex;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px black;
+    align-items: center;
+}
+
+#icon{
+    transition: all 0.5s;
+}
+nav:hover #icon{
+    transform: rotate(90deg);
+}
+ul{
+    position: absolute;
+    top: 5vw;
+    left: 5vw;
+    list-style: none;
+    display: none;
+}
+li{
+    font-size: 5vw;
+    width: 30vw;
+    background-color: darkblue;
+    padding: 1vw;
+    border-radius: 5px;
+    color: white;
+}
+nav:hover ul{
+    display: block;
+    animation: navbaranimation 0.5s linear both;
+}
+@keyframes navbaranimation {
+    from{
+        transform: translate(-800px);
+    }
+    to{
+        transform: translate(0px);
+    }
+}

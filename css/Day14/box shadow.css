@@ -1,0 +1,14 @@
+div{
+    width: 120px;
+    height: 120px;
+    margin-top: 150px;
+    margin-left: 40%;
+    border-radius: 100%;
+    transition: all 1s;
+    box-shadow: 2px 2px 2px black;
+    background-color: antiquewhite;
+}
+div:hover{
+    transform: rotate(360deg);
+    box-shadow: -50px -50px 0px palevioletred,50px 50px 0px thistle,-50px 50px 0px peachpuff,50px -50px 0px silver;
+}

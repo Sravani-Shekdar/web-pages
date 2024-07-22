@@ -1,0 +1,27 @@
+h1{
+    float:left;
+    font-size: 160px;
+}
+.royalblue{
+    color: royalblue;
+}
+.red{
+    color: red;
+}
+#orange{
+    color: orange;
+}
+#green{
+    color: green;
+}
+div{
+    float:left;
+}
+#startingspace{
+    width:400px;
+    height:100px;
+}
+marquee{
+    float:left;
+    width:120px;
+}

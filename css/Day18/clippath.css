@@ -1,0 +1,15 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: hotpink;
+}
+#a{
+    clip-path: polygon(45% 0, 100% 0, 64% 100%, 4% 71%);
+
+}
+#b{
+    background-image: url(/assest/image/sravs.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}

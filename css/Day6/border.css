@@ -1,0 +1,132 @@
+/* #solid{
+    border-style: solid;
+}
+#double{
+    border-style: double;
+    border-width: 10px;
+}
+#dotted{
+    border-style: dotted;
+    border-width: 10px;
+}
+#dashed{
+    border-style: dashed;
+    border-width: 10px;
+}
+#groove{
+    width: 600px;
+    border-style: groove;
+    border-width: 30px;
+    border-color: lawngreen;
+}
+#ridge{
+    width: 600px;
+    border-style: ridge;
+    border-width: 30px;
+    border-color: lawngreen;
+}
+#inset{
+    width: 600px;
+    border-style: inset;
+    border-width: 30px;
+    border-color: lawngreen;
+}
+#outset{
+    width: 600px;
+    border-style: outset;
+    border-width: 30px;
+    border-color: lawngreen;
+} */
+
+
+
+
+/* #broder{
+    border: 10px grovee lawngreen;
+}
+#mixedbroder{
+    width: 50%;
+    border-left: 30px double royalblue;
+    border-top: 50px dotted pink;
+    border-right: 50px outset greenyellow;
+    border-bottom: 50px ridge khaki;
+}
+#high{
+    border-left: 400px red solid;
+}
+#mid{
+    border-left: 250px green solid;
+}
+#low{
+    border-left: 150px orange solid;
+} */
+
+
+div{
+    width: 300px;
+    height: 300px;
+    float: left;
+    /* background-image: linear-gradient(120deg,pink,skyblue); */
+}
+
+/* #onevalue{
+    border-radius: 100%;
+}
+#twovalue{
+    border-radius: 100% 20px;
+}
+#fourvalue{
+    border-radius: 100px 200px 150px 10px;
+} */
+/* #a{
+    border-radius: 20px 100%;
+    background-image: linear-gradient(120deg,pink,skyblue);
+    
+}
+#b{
+    border-radius: 100% 20px;
+    background-image: linear-gradient(120deg,pink,skyblue);
+}
+#c{
+    border-radius: 100px 20px;
+    background-image: linear-gradient(120deg,pink,skyblue);
+}
+#d{
+    border-radius: 200px 0px 0px 200px;
+    background-color: blue;
+    
+     
+}
+#e{
+    border-radius: 0px 200px 200px 0px;
+    background-color: red ;
+    
+} */
+
+
+/* #ellipse{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 49% 51% 31% 61%/23% 72% 28% 77%;
+    border-radius: 39% 51% 81% 51%/93% 82% 28% 37%;
+} */
+
+
+/* h1{
+    border: double 10px blue;
+    outline: groove 10px skyblue;
+    outline-offset: 10px;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+} */
+
+
+#ellipse{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    
+    
+}

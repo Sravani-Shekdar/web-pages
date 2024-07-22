@@ -1,0 +1,40 @@
+#sravs{
+    width: 150px;
+    height: 150px;
+    margin-top: 300px;
+    margin-left: 450px;
+}
+#a,#b,#c
+{
+    width: 30px;
+    height: 25px;
+    border-radius: 30px;
+    margin-left: 30px;
+    animation-name: loadAni;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+#a{
+    background-color: red;
+    float: left;
+    animation-delay: 1s;
+}
+#b{
+    background-color:blue;
+    float: left;
+    animation-delay: 1.5s;
+}
+#c{
+    background-color: green;
+    float: right;
+    animation-delay: 2.5s;
+}
+@keyframes loadAni {
+     0%,100%{
+        transform: scale(1);
+     }
+     50%{
+        transform: scaleY(4);
+        border-radius: 15px;
+     }
+}

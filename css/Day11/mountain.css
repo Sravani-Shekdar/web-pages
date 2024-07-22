@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px
+}
+header{
+    width: 100%;
+    height: 350px;
+    background-image: url(/assest/image/idiots.jpg),url(/assest/image/earth.jpg),url(/assest/image/flower.jpg),url(/assest/image/mountain3.jpg),url(/assest/image/mountain2.jpg),url(/assest/image/mountain1.jpg);
+    background-repeat: no-repeat;
+    background-size: 95%,90%,65%,70%,400px,100%;
+    background-position: 300px -150px,100px 0px,250px -0px,200px -100px,45% 500px,top;
+    transition: all 0.5s;
+    
+}

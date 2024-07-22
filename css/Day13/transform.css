@@ -1,0 +1,35 @@
+ /* img{
+    width: 250px;
+    transition: all 1s;
+}
+img:hover{ */
+    /* transform: rotateZ(45deg); */
+    /* transform: rotateY(45deg)  rotateZ(45deg); */
+    /* transform: rotateX(45deg) rotateY(45deg)  rotateZ(45deg) ;
+ }  */
+
+
+ div{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    font-size: 100%;
+    float: left;
+    
+    background-color: aqua;
+ }
+ img{
+    width:250px;
+    transition: all 1s;
+    
+ }
+ #a:hover~img{
+     transform: rotateX(45deg);
+ }
+ #b:hover~img{
+    transform: rotateY(45deg);
+ }
+ #c:hover~img{
+    transform: rotateZ(45deg);
+
+ }

@@ -1,0 +1,45 @@
+/* img{
+    width: 600px; */
+    /* filter: blur(100px); */
+    /* filter: brightness(120%); */
+    /* filter: contrast(550%); */
+    /* filter: grayscale(100%); */
+    /* filter: hue-rotate(250deg); */
+    /* animation-name: animationcolor ;
+    animation-duration: 10s; */
+    /* filter: invert(60%); */
+    /* filter: opacity(50%); */
+    /* filter: saturate(150%); */
+    /* filter: sepia(120%); */
+    /* filter: drop-shadow(2px 2px 1px red);
+}
+@keyframes animationcolor {
+    from{
+        filter: hue-rotate(0deg);
+    }
+    to{
+        filter: hue-rotate(360deg);
+    }
+} */
+
+body{
+    cursor: url(/assest/image/curser.svg),pointer;
+}
+img{
+    width: 200px;
+}
+#box{
+    cursor: pointer;
+}
+#submit{
+    cursor: ew-resize;
+}
+#img{
+    cursor: grab;
+}
+#text{
+    cursor: none;
+}
+#file{
+    cursor: s-resize;
+}

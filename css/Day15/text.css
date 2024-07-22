@@ -1,0 +1,24 @@
+a{
+    text-decoration: none;
+    color: aqua;
+}
+h1{
+    /* letter-spacing: 10px;
+    word-spacing: 40px;
+    text-transform: uppercase; */
+    /* text-decoration: overline dashed red 2px; */
+    /* text-decoration: underline dashed red 2px; */
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+    font-style: italic;
+}
+p{
+     /* letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height: 40px;
+    text-transform: capitalize;  */
+    text-align: justify;
+    text-indent: 100px;
+    font-weight: bolder;
+}

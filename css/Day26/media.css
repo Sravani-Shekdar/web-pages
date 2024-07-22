@@ -1,0 +1,77 @@
+/* @media only screen and(orientation:landscape){
+    #container{
+        width: 200px;
+        height: 200px;
+        background-image: url(/assest/image/charminar.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    #ntr{
+        color: red;
+        font-size: 30px;
+    }
+    #ram{
+        display: none;
+    }
+}
+
+@media only screen and(orientation:portrait)
+{
+    #container{
+        width: 200px;
+        height: 200px;
+        background-image: url(/assest/image/sravs.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    #ram{
+        color: red;
+        font-size: 30px;
+    }
+    #ntr{
+        display: none;
+    }
+} */
+
+
+
+@media only screen and (max-width:600px){
+    #container{
+        width: 120px;
+        height: 120px;
+        background-color: blue;
+    }
+}
+
+@media only screen and (min-width:600px){
+    #container{
+        width: 180px;
+        height: 180px;
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width:782px){
+    #container{
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+    }
+}
+
+@media only screen and (min-width:982px){
+    #container{
+        width: 220px;
+        height: 220px;
+        background-color: pink;
+    }
+}
+
+
+@media only screen and (min-width:1200px){
+    #container{
+        width: 220px;
+        height: 220px;
+        background-color: purple;
+    }
+}

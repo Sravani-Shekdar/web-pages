@@ -1,0 +1,71 @@
+/* input{
+    background-color: bisque;
+    border: 2px solid palevioletred;
+    color: hotpink;
+    outline-:pink ;
+}
+input::placeholder{
+    color: white;
+} */
+
+
+/* h1::first-letter{
+    font-size: 200px;
+    color: cyan;
+    font-style: italic;
+}
+
+p::first-line{
+    font-size: 30px;
+    color: skyblue;
+} */
+
+
+/* h1::before{
+    /* content: "good girl  "; */
+    /* content: "😙";
+}
+h1::after{
+    content: "🤪";
+}
+
+p::selection{
+    background-color: purple;
+    color: plum;
+}  */
+
+
+/* li::marker{
+    content: "🙊";
+} */
+
+/* body{
+    height: 5000px;
+}
+body::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(skyblue,pink);
+}
+body::-webkit-scrollbar-thumb{
+    background-image: url(/assest/image/emoji.jpg);
+    background-size: 10px;
+    background-repeat: no-repeat;
+} */
+
+input::-webkit-slider-runnable-track{
+    -webkit-appearance: none;
+    background-color: blueviolet;
+    border-radius: 10px;
+    height: 10px;
+}
+/* input{
+    -webkit-appearance: none;
+} */
+input::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 20px;
+    height: 100%;
+    background-color: aqua;
+    border-radius: 100%;
+}

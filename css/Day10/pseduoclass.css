@@ -1,0 +1,48 @@
+/* h1{
+    color: red;
+}
+h1:first-child{
+    color:gold;
+}
+p:last-child{
+    color: aquamarine;
+} */
+
+/* input{
+    background-color: blue;
+    color: yellow;
+    width: 250px;
+    height: 30px;
+    border:2px solid blue;
+    border-radius: 5px;
+
+}
+input:focus{
+    background-color: red;
+    color: white;
+    width: 320px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+} */
+
+
+
+/* input:required{
+    background-color: red;
+}
+input:read-only{
+     background-color: orangered;
+}
+input:disabled{
+    background-color: green;
+} */
+
+
+input:valid{
+    background-color: green;
+}
+input:invalid{
+    background-color: red;
+}

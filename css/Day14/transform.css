@@ -1,0 +1,38 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+div{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+#xaxis{
+    background-color: aqua;
+    /* transition: all 5s; */
+    /* transform: rotate(45deg); */
+    
+} 
+#xaxis:hover{
+    transform: translate(200px);
+}
+#yaxis{
+    background-color:palevioletred;
+    /* transition: all 5s; */
+    /* transform: rotate(45deg); */
+} 
+#yaxis:hover{
+    /* transform: translate(500px); */
+    transform: scaleX(1.5) scaleY(5);
+
+}
+#xyaxis{
+    background-color:tan;
+    /* transition: all 5s; */
+    /* transform: rotate(200px,100px); */
+} 
+#xyaxis:hover{
+    /* transform: translate(200px,100px); */
+    transform: scaleX(2) scaleY(2.5);
+}

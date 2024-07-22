@@ -1,0 +1,66 @@
+/* #inch{
+    width: 10in;
+    height: 10in;
+    background-color: aqua;
+}
+
+#cm{
+    width: 10cm;
+    height: 10cm;
+    background-color: hotpink;
+}
+#mm{
+    width: 10mm;
+    height: 10mm;
+    background-color: olive;
+}
+#px{
+    width: 10px;
+    height: 10px;
+    background-color:palevioletred;
+}
+#pt{
+    width: 10pt;
+    height: 10pt;
+    background-color: plum;
+}
+#pc{
+    width: 10pc;
+    height: 10pc;
+    background-color:khaki;
+} */
+
+
+
+/* #a{
+    font-size: 10cm;
+    font-size: 14vw;
+}
+#b{
+    font-size: 160px;
+}
+#c{
+    font-size: 32vh;
+}
+#d{
+    font-size: 1030%;
+    color: red;
+} */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+#a{
+    width: 100%;
+    height: 20%;
+    background-color: red;
+}
+#b{
+    width: 100vw;
+    height: 120px;
+    background-color: yellow;
+}

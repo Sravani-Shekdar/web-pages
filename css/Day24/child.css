@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    width: 100%;
+    height: 500px;
+    background-color: skyblue;
+    display: flex;
+}
+.subdiv{
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    border: 3px solid chocolate;
+    font-size: 80px;
+}
+#a2{
+    background-color: antiquewhite;
+    order: 1;
+    order: 5000;
+}
+#a3{
+   background-color: burlywood;
+   order: 2;
+}
+#a4{
+    background-color: cornsilk;
+    order: 3;
+ }

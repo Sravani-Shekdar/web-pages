@@ -1,0 +1,7 @@
+body{
+    /* background: red; */
+    /* background: url(/assest/image/sun.jpg); */
+    /* background: linear-gradient(red,black); */
+    /* background: radial-gradient(red,black); */
+    background: conic-gradient(green,yellow);
+}

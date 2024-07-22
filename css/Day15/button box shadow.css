@@ -1,0 +1,20 @@
+input{
+    margin-top: 300px;
+    margin-left: 40%;
+    border-radius: 10%;
+    background-color: pink;
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 40px;
+    box-shadow: 2px 2px 2px grey,inset 5px 5px 5px palevioletred;
+}
+div{
+    border-radius: 10%;
+    background-color: royalblue;
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 40px;
+    box-shadow: 2px 2px 2px grey,inset 5px 5px 5px darkblue;
+}

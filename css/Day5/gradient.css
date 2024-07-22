@@ -1,0 +1,48 @@
+/* body{
+    background-image: linear-gradient(120deg,beige,pink,cyan,plum);
+    background-repeat: no-repeat;
+    background-size: 100% 850px;
+} */
+
+
+/* 
+#a{
+    width: 350px;
+    height: 450px;
+    background-image: linear-gradient(120deg,green,transparent,orange),linear-gradient(45deg,black,transparent,purple),url(/assest/image/dq.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+} */
+ div{
+    float: left;
+} 
+
+/* #a{
+    width: 450px;
+    height: 450px;
+    background-image: radial-gradient(red,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black);
+    background-size: 100%;
+}
+#b{
+    width: 300px;
+    height: 350px;
+    background-image: linear-gradient(45deg,skyblue,transparent,transparent,pink),radial-gradient(transparent,transparent,plum),url(/assest/image/pexels-quentin-chansaulme-18742045.jpg);
+    background-size: 100%;
+} */
+
+
+/* .c{
+    width: 450px;
+    height: 300px;
+    background-image: radial-gradient(circle,red,black,red,black,red,black,red,black,red,black,red,black,red,black,red,black);
+}
+#d{
+    background-image: radial-gradient(ellipse,red,black,red,black,red,black,red,black,red,black,red,black,red,black,red,black);
+} */
+
+.c{
+    width: 450px;
+    height: 300px;
+    background-image: radial-gradient(circle at 50%,transparent 40%,red 75%,black 20%),url(/assest/image/pexels-ondřej-strouhal-20491793.jpg);
+    background-size: 100%;
+} 

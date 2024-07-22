@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* #ball{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border-radius: 100%;
+    animation-name:animationball ;
+    animation-duration: 10s;
+}
+@keyframes animationball {
+    0%{
+        transform: translate(0px,0px);
+        background-color: aquamarine;
+    }
+    50%,100%{
+        transform: translate(450px,450px);
+        background-color: bisque;
+    }
+    
+    65%{
+        transform: translate(1050px,300px);
+        background-color: beige;
+    }
+    75%{
+        transform: translate(400px,0px);
+        background-color: darkgray;
+    }
+    85%{
+        transform: translate(0px,180px);
+        background-color: cornflowerblue;
+    }
+    
+} */
+
+
+/* #animal{
+    width:300px ;
+    height: 300px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+    margin-top: 100px;
+    background-image: url(/assest/image/charminar.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation-name: animalimg;
+    animation-duration: 6s;
+}
+@keyframes animalimg {
+    33%{
+        background-image: url(/assest/image/mountain1.jpg); 
+        background-size: 100%;
+    }
+    66%{
+        background-image: url(/assest/image/mountain2.jpg);
+        background-size: 100%;
+    }
+    100%{
+        background-image: url(/assest/image/mountain3.jpg);
+        background-size: 100%;
+    }
+} */
+
+body{
+    background-color: black;
+}
+
+#maindiv{
+    width: 200px;
+    height: 40px;
+    margin-top: 20%;
+    margin-left: 35%;
+    float: left;
+    border-radius:10px 0px 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#red#blue{
+    width: 46%;
+    height: 100%;
+    border-radius: 10px 0px 10px 0px;
+}

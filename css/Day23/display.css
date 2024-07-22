@@ -1,0 +1,52 @@
+h1{
+    background-color: aqua;
+    width: 30%;
+    height: 200px;
+    /* display: block; */
+    display: inline;
+    /* display: inline-block; */
+}
+p{
+    background-color: beige;
+    font-size: 40px;
+    width: 30%;
+    height: 300px;
+    /* display: inline; */
+    display: block;
+}
+span{
+    background-color: blueviolet;
+    width: 30%;
+    height: 200px;
+    /* display: block; */
+    display: inline-block;
+    /* display: none; */
+}
+b{
+    background-color: coral;
+    width: 30%;
+    height: 200px;
+    display: inline-block;
+    /* display: none; */
+}
+h1:hover~span{
+    display: block;
+    width: 100%;
+    font-size: 50px;
+    animation: animation 3s infinite both;
+}
+h1:hover~b{
+    display: block;
+    width: 100%;
+    font-size: 50px;
+    animation: animation 3s infinite both;
+}
+@keyframes animation {
+    from{
+        transform: translate(-1200px);
+    }
+    to{
+        transform: translate(0px);
+    }
+    
+}

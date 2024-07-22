@@ -1,0 +1,16 @@
+div{
+    width: 500px;
+    height: 400px;
+    margin-top: 300px;
+    margin-left: 700px;
+    background-color: black;
+}
+img{
+    position: absolute;
+    top: 40%;
+    left: 37%;
+    filter: drop-shadow(5px 5px 1px lawngreen) drop-shadow(-5px -5px 1px red);
+}
+div:hover{
+    transform: rotate(160deg);
+}
